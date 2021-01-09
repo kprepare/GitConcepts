@@ -4,6 +4,8 @@ public class GitConcepts{
         System.out.println("git concepts");
         printDuck();
         printPeacock();
+
+        Helper.printHelp();
     }
 
     public static void printDuck(){
