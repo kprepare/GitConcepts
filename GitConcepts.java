@@ -15,4 +15,8 @@ public class GitConcepts{
     public static void printPeacock(){
         System.out.println("Peacock");
     }
+
+    public static void printBird(){
+        System.out.println("Bird");
+    }
 }
