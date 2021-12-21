@@ -1,25 +1,30 @@
 package com.supersoft;
 
+import static com.supersoft.Helper.printDebugInformation;
+import static com.supersoft.Helper.printHelp;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class GitConcepts{
-    private static int i1;
-    private static Integer i2;
-    private static boolean b1;
-    private static Boolean b2;
-    
     public static void main(String[] args) {
-        System.out.println(i1 + "," + i2 + "," + b1 + "," + b2);
-       
+        printHelp();
+        printDebugInformation();
+        
+        printDuck();
+        printBird();
+        printPeacock();
     }
 
     public static void printDuck(){
-        System.out.println("Duck");
+        log.info("Duck");
     }
 
     public static void printPeacock(){
-        System.out.println("Peacock");
+        log.info("Peacock");
     }
 
     public static void printBird(){
-        System.out.println("Bird");
+        log.info("Bird");
     }
 }

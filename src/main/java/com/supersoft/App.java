@@ -1,8 +1,11 @@
 package com.supersoft;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * Hello world!
  */
+@Slf4j
 public final class App {
     private App() {
     }
@@ -12,6 +15,6 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        log.info("Hello World!");
     }
 }
