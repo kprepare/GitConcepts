@@ -9,6 +9,6 @@ public class Helper {
 
     public static void printDebugInformation() {
         System.out.println("Debug information");
-        //System.out.println("This project is created for learning the concepts of git.");
+        System.out.println("This project is created for learning the concepts of git.");
     }
 }
