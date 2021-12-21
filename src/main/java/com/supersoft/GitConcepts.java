@@ -1,11 +1,14 @@
-public class GitConcepts{
-    //This is main method
-    public static void main(String[] args) {
-        System.out.println("git concepts");
-        printDuck();
-        printPeacock();
+package com.supersoft;
 
-        Helper.printHelp();
+public class GitConcepts{
+    private static int i1;
+    private static Integer i2;
+    private static boolean b1;
+    private static Boolean b2;
+    
+    public static void main(String[] args) {
+        System.out.println(i1 + "," + i2 + "," + b1 + "," + b2);
+       
     }
 
     public static void printDuck(){
