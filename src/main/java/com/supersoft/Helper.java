@@ -1,14 +1,16 @@
 package com.supersoft;
 
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class Helper {
     public static void printHelp() {
-        System.out.println("Help for Git Conectps project.");
-        System.out.println("This project is created for learning the concepts of git.");
+        log.info("Help for Git Conectps project.");
+        log.info("This project is created for learning the concepts of git.");
     }
 
     public static void printDebugInformation() {
-        System.out.println("Debug information");
-        System.out.println("This project is created for learning the concepts of git.");
+        log.info("Debug information");
+        log.info("This project is created for learning the concepts of git.");
     }
 }
